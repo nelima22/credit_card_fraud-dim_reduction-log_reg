@@ -10,13 +10,15 @@ We use the Credit Card Fraud Detection dataset from Kaggle, which contains trans
 
 ### 2. Analyze and preprocess the Data
 Class imbalance is observed but will only be addressed by using `stratify = y` for this project.
-
+![Alt text](URL_to_image)
 
 The dataset is split into features and target (fraud or not fraud). The features are then standardized to have zero mean and unit variance, which is important for PCA. 
 
 ### 3. Apply PCA for Dimensionality Reduction
 PCA is applied to reduce the dimensionality of the dataset.
 
+![Alt text](URL_to_image)
+This plot shows the cumulative explained variance for all components.
 
 We reduce the dataset to 24 out of 30 principal components from which 85% of the variance is explained.This step is crucial to simplify the dataset while retaining the most important information.
 
